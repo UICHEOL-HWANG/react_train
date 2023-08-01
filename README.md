@@ -36,3 +36,8 @@ export default Hello;
 ```
 
 컴포넌트에게 전달되는 props 는 파라미터를 통하여 조회 할 수 있습니다. props 는 객체 형태로 전달되며, 만약 name 값을 조회하고 싶다면 props.name 을 조회하면 됩니다.
+
+---
+
+8월 1일 todolist 완성본
+![1차 완성](./img/main.png)
