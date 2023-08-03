@@ -1,0 +1,144 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  font-family: 'pretendard';
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+button {
+  margin-top: 30px;
+  width: 90px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.hr {
+  margin-top: 20px;
+  color: #000;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+input:hover {
+  border: 3px solid skyblue;
+}
+
+.wrap {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 20px 30px;
+  background: skyblue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.ci > a > .hidden {
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.ci a {
+  display: block;
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn-icons-png.flaticon.com/256/5977/5977591.png) 0 0 / cover no-repeat;
+}
+
+.header {
+  height: 104px;
+  background: #fff;
+}
+
+.inner {
+  width: 100%px;
+  margin: 0 auto;
+  background: #f6f5ee;
+}
+
+.header nav {
+  height: 104px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gnb {
+  /* background: #f5f; */
+  display: flex;
+}
+
+.gnb li {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  list-style: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.gnb li:hover {
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
